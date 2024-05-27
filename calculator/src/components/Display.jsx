@@ -1,9 +1,11 @@
-function App () {
+import '../stylesheet/Display.css'
+
+const Display = ({ input }) => {
   return(
-    <>
-      <Number text={1} />
-    </>
+    <div className="input">
+      {input}
+    </div>
   )
 }
 
-export default App
+export default Display
